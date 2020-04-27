@@ -1,5 +1,5 @@
 #include "channel_state.h"
-
+// Channel 의 상태를 확인 한다. 
 namespace dramsim3 {
 ChannelState::ChannelState(const Config& config, const Timing& timing)
     : rank_idle_cycles(config.ranks, 0),
